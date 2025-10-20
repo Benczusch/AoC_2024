@@ -27,7 +27,7 @@ with open(file_path) as f:
         parts = line.split()
 
 print()
-print(f"--- Result of Day {int(day_number):02d} {('TEST' if test else 'INPUT')} ---")
+print(f"--- Result of Day {int(""" + str(day_number) + """):02d} {('TEST' if test else 'INPUT')} ---")
 print(result1)
 print(result2)"""
 
